@@ -175,22 +175,3 @@ export function calculateHealth(company, issues) {
   
   return Math.max(0, Math.min(100, healthScore));
 }
-```
-
----
-
-**File structure:**
-```
-src/
-├── components/
-│   ├── DataImport.jsx
-│   ├── DataImport.css
-│   ├── PortfolioHealthBar.jsx
-│   ├── PortfolioHealthBar.css
-│   ├── PriorityQueue.jsx
-│   └── PriorityQueue.css
-├── lib/
-│   └── derivations.js
-├── App.jsx
-├── App.css
-└── main.jsx (unchanged from Vite default)
