@@ -1,0 +1,173 @@
+.import-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #0a0a0b;
+}
+
+.import-box {
+  width: 100%;
+  max-width: 900px;
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 40px;
+}
+
+.import-box h1 {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.import-subtitle {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.tab-nav {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: #666;
+  padding: 8px 16px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tab-btn:hover {
+  color: #aaa;
+  border-color: #444;
+}
+
+.tab-btn.active {
+  background: #252525;
+  color: #fff;
+  border-color: #444;
+}
+
+.tab-btn.has-data {
+  border-color: #22c55e44;
+}
+
+.tab-btn .required {
+  color: #ef4444;
+  font-size: 10px;
+}
+
+.tab-btn .check {
+  color: #22c55e;
+  font-size: 10px;
+}
+
+.field-group {
+  margin-bottom: 24px;
+}
+
+.field-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.field-group label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #888;
+  text-transform: capitalize;
+}
+
+.template-hint {
+  font-size: 10px;
+  color: #444;
+  font-family: 'SF Mono', Monaco, monospace;
+  max-width: 60%;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.field-group textarea {
+  width: 100%;
+  background: #0a0a0b;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #e5e5e5;
+  font-family: 'SF Mono', Monaco, monospace;
+  font-size: 12px;
+  padding: 12px;
+  resize: vertical;
+}
+
+.field-group textarea:focus {
+  outline: none;
+  border-color: #555;
+}
+
+.field-group textarea::placeholder {
+  color: #333;
+}
+
+.error-msg {
+  color: #ef4444;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.import-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.data-summary {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.summary-item {
+  font-size: 11px;
+  color: #666;
+  background: #1a1a1a;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.15s;
+}
+
+.btn.primary {
+  background: #2563eb;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background: #3b82f6;
+}
